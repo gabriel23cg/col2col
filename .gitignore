@@ -1,0 +1,5 @@
+.idea/
+col2col.egg-info/
+col2col/__pycache__/
+venv/
+*.pyc
