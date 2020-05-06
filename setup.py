@@ -35,12 +35,12 @@ description = """Python package to convert units by column in XLSX files"""
 # =====
 setup(
     name='col2col',
-    version='0.2.1',
+    version='0.2.2',
     author='Diego Rodriguez, Gabriel Capeans',
     author_email='diego.cacheiras@gmail.com, gabriel23cg@gmail.com',
     description=description,
     url='https://github.com/gabriel23cg/col2col',
-    download_url='https://github.com/gabriel23cg/col2col/archive/v0.2.1.tar.gz',
+    download_url='https://github.com/gabriel23cg/col2col/archive/v0.2.2.tar.gz',
     classifiers=['Operating System :: POSIX :: Linux',
                  'Programming Language :: Python :: 3',
                  'Programming Language :: Python :: 3.6'
