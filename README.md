@@ -1,1 +1,1 @@
-# col2col
+# Col2col python package

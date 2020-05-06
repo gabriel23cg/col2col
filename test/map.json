@@ -1,0 +1,78 @@
+{
+  "nodes": {
+    "header": 2,
+    "rules": {
+      "e": {
+        "from": "GWh/d",
+        "to": "W"
+      },
+      "p": {
+        "from": "bar",
+        "to": "Pa"
+      },
+      "l": {
+        "from": "km",
+        "to": "m"
+      }
+    }
+  },
+  "edges": {
+    "header": 1,
+    "rules": {
+      "e": {
+        "from": "GWh/d",
+        "to": "W"
+      },
+      "p": {
+        "from": "bar",
+        "to": "Pa"
+      },
+      "l": {
+        "from": "km",
+        "to": "m"
+      }
+    }
+  },
+  "others": {
+    "header": 3,
+    "rules": {
+      "e": {
+        "from": "GWh/d",
+        "to": "W"
+      },
+      "p": {
+        "from": "bar",
+        "to": "Pa"
+      },
+      "l": {
+        "from": "km",
+        "to": "m"
+      }
+    }
+  },
+  "options" : {
+    "header": 1,
+    "rules": {
+      "value": [
+        {
+          "from": "bar",
+          "to": "Pa",
+          "if": {
+            "key": "parameter",
+            "sense": "==",
+            "value": "extra_pressure"
+          }
+        },
+        {
+          "from": "km",
+          "to": "m",
+          "if": {
+            "key": "parameter",
+            "sense": "==",
+            "value": "extra_distance"
+          }
+        }
+      ]
+    }
+  }
+}
